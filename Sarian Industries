@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sarian Industries</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; background:#05060a; color:#e5f0ff; }
+    header { padding:40px 10%; background:linear-gradient(135deg,#05060a,#0b1b3f); border-bottom:1px solid #1b2b4f; }
+    .logo { font-size:32px; font-weight:bold; color:#4fb4ff; }
+    .tagline { margin-top:10px; font-size:16px; color:#9fb7ff; }
+    nav { margin-top:20px; }
+    nav a { margin-right:20px; color:#9fb7ff; text-decoration:none; font-size:14px; }
+    nav a:hover { color:#4fb4ff; }
+    section { padding:60px 10%; border-bottom:1px solid #111827; }
+    h2 { color:#4fb4ff; margin-bottom:10px; }
+    h3 { color:#9fb7ff; margin-top:25px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:30px; margin-top:25px; }
+    .card { background:#0b1020; border:1px solid #1b2b4f; border-radius:10px; padding:20px; }
+    .card-title { font-weight:bold; color:#4fb4ff; margin-bottom:8px; }
+    .spec { font-size:14px; color:#c7d2ff; }
+    footer { padding:30px 10%; text-align:center; font-size:13px; color:#6b7280; background:#05060a; }
+    .btn { display:inline-block; margin-top:15px; padding:10px 18px; border-radius:6px;
+           background:#4fb4ff; color:#05060a; text-decoration:none; font-size:14px; font-weight:bold; }
+    .btn:hover { background:#7fd0ff; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Sarian Industries</div>
+  <div class="tagline">Quantum computing. Clean energy. A new era of power.</div>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#reactors">Reactors</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="products">
+  <h2>Nova & APEX Hardware</h2>
+  <p>High‑performance CPUs, GPUs, and memory powering AI, gaming, and simulation across the globe.</p>
+
+  <h3>CPUs — Nova Series</h3>
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Nova Ultra</div>
+      <div class="spec">32 Cores / 64 Threads</div>
+      <div class="spec">240 MB L3 Cache</div>
+      <div class="spec">2 nm Fabrication • 7.2 GHz</div>
+      <div class="spec">180W TDP • PCIe 6.0</div>
+      <div class="spec">DDR5 & DDR6 Support</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Nova Prime</div>
+      <div class="spec">32 Cores / 64 Threads</div>
+      <div class="spec">240 MB L3 Cache</div>
+      <div class="spec">2 nm Fabrication • 5.6 GHz</div>
+      <div class="spec">180W TDP • PCIe 6.0</div>
+      <div class="spec">DDR5 & DDR6 Support</div>
+    </div>
+  </div>
+
+  <h3>GPUs — APEX Series</h3>
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">APEX‑X90</div>
+      <div class="spec">Flagship 3‑Fan Vapor Chamber</div>
+      <div class="spec">22,000 QuantumStream cores</div>
+      <div class="spec">32GB GDDR7X • 512‑bit</div>
+      <div class="spec">2.4 TB/s bandwidth • 3.6 GHz</div>
+    </div>
+    <div class="card">
+      <div class="card-title">APEX‑X80</div>
+      <div class="spec">High‑end dual‑fan design</div>
+      <div class="spec">14,000 cores • 20GB GDDR7</div>
+      <div class="spec">384‑bit bus • 1.6 TB/s</div>
+    </div>
+    <div class="card">
+      <div class="card-title">APEX‑X60</div>
+      <div class="spec">Mid‑range dual‑fan</div>
+      <div class="spec">8,200 cores • 12GB GDDR6X</div>
+      <div class="spec">256‑bit bus • 720 GB/s</div>
+    </div>
+  </div>
+
+  <h3>Memory — Flux & Quantum</h3>
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">Flux DDR5</div>
+      <div class="spec">16–64GB modules</div>
+      <div class="spec">Up to 7600 MT/s</div>
+      <div class="spec">Brushed aluminium heatspreader</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Quantum DDR6</div>
+      <div class="spec">32–128GB modules</div>
+      <div class="spec">Up to 18,000 MT/s</div>
+      <div class="spec">Titanium alloy • dual‑zone RGB</div>
+    </div>
+  </div>
+</section>
+
+<section id="reactors">
+  <h2>Sarian Energenics — Nuclear & Fusion</h2>
+  <p>Clean, modular reactors powering cities, industries, and orbital infrastructure.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-title">FusionCore SMR‑12</div>
+      <div class="spec">Small Modular Reactor</div>
+      <div class="spec">City‑scale clean power</div>
+      <div class="spec">Fictional price: £1.4B</div>
+    </div>
+    <div class="card">
+      <div class="card-title">FusionCore SMR‑50</div>
+      <div class="spec">Medium‑scale reactor</div>
+      <div class="spec">Megacity & industrial grids</div>
+      <div class="spec">Fictional price: £3.8B</div>
+    </div>
+    <div class="card">
+      <div class="card-title">QuantumFusion‑1</div>
+      <div class="spec">Experimental fusion concept</div>
+      <div class="spec">Designed for limitless clean energy</div>
+      <div class="spec">Fictional price: £12B</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact & Partnerships</h2>
+  <p>For fictional partnerships, OEM deals, or expansions, Sarian Industries operates as a universe you control.</p>
+  <a href="#" class="btn">Design New Hardware</a>
+</section>
+
+<footer>
+  © Sarian Industries — Fictional tech & energy megacorp created by you.
+</footer>
+
+</body>
+</html>
